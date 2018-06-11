@@ -1,0 +1,11 @@
+.todo-list {
+    list-style: none;
+    input[type=checkbox] {
+        margin-right: 10px;
+        &:checked + span {
+            text-decoration: line-through;
+            color: #CCC;
+        }
+    }
+    
+}

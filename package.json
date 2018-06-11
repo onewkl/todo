@@ -1,0 +1,16 @@
+{
+  "name": "jstodo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@talentui/webpack-config": "^1.4.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  }
+}
